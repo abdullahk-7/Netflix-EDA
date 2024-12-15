@@ -15,11 +15,12 @@ This project performs Exploratory Data Analysis (EDA) on the Netflix Movies & TV
  How to Run the Project
 
 1. Clone the Repository
-git clone https://github.com/your-username/netflix-eda-spark.git
+   
+git clone[https://github.com/your-username/netflix-eda-spark.git](https://github.com/abdullahk-7/Netflix-EDA.git)
 cd netflix-eda-spark
-2. Run Docker Container
+3. Run Docker Container
 docker run -it --rm -p 8888:8888 -v "$PWD":/app apache/spark-py bash
-3. Execute the EDA Script
+4. Execute the EDA Script
    python3 netflix_eda.py
    Dataset
 	•	Source: Netflix Movies & TV Shows Dataset (Kaggle)
